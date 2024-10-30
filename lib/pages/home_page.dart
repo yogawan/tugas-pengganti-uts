@@ -11,8 +11,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Image.asset('assets/header_label.png'),
-        backgroundColor: Color(0xFFEFEFEF),
+        // title: Image.asset('assets/header_label.png'),
+        // backgroundColor: Color(0xFFEFEFEF),
+        title: Text("Tugas Pengganti UTS"),
       ),
       body: SafeArea(
         child: Center(
